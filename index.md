@@ -10,12 +10,12 @@ title: "Welcome to Troy's Portfolio"
 <div class="projects" style="margin-top: 40px;">
   <h2>Projects</h2>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-    <div class="project-card" style="padding: 20px; border: 1px solid #444; border-radius: 8px; background-color: #222;">
+    <div class="project-card">
       <h3>Project 1</h3>
       <p>Short description of the project, what it does, and why it’s cool.</p>
       <a href="https://github.com/trewier/web-testing" target="_blank">View on GitHub</a>
     </div>
-    <div class="project-card" style="padding: 20px; border: 1px solid #444; border-radius: 8px; background-color: #222;">
+    <div class="project-card">
       <h3>Project 2</h3>
       <p>Another amazing project, showcasing something creative or unique.</p>
       <a href="https://github.com/trewier/aesprite" target="_blank">View on GitHub</a>
@@ -24,6 +24,12 @@ title: "Welcome to Troy's Portfolio"
 </div>
 
 <style>
+  .project-card {
+    padding: 20px; 
+    border: 1px solid #444; 
+    border-radius: 8px; 
+    background-color: #222;
+  }
   body {
     font-family: Arial, sans-serif;
   }
